@@ -1,11 +1,16 @@
-﻿using System;
+﻿/*
+ added by Shinedo @ 2020/6/18
+ 通过工厂模式所有常用实例的管理类
+ */
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace OF
+namespace OF.Core
 {
     public interface ISingle
     {
